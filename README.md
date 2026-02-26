@@ -1,38 +1,16 @@
-```markdown
-# LUXARG: A User-Friendly Text Editor
-
-LUXARG is a keyboard-friendly text editor designed for simplicity and ease of use. Whether you're a seasoned developer or a casual user, LUXARG provides an intuitive interface to enhance your writing experience.
-
-## Supported Platforms
-
-LUXARG is compatible with a variety of Linux distributions, including:
-
-- **Fedora**
-- **CentOS**
-- **RedHat**
-- **Debian**
-- **Ubuntu**
-- **OpenSUSE**
-- **Arch**
-- **Manjaro**
-
-## Icon
+# LUXARG: A Simple Text Editor
 
 ![LUXARG Icon](icon/luxarg.png)
 
-## Screenshot
+## Key Features
 
-![LUXARG Screenshot](screenshot/1.png)
-
-## Key Bindings
-
-- **Insert Mode:** Press `<F1>` to enter insert mode.
-- **Save Mode:** Press `<F2>` to save your current document.
-- **Open Mode:** Press `<F3>` to open an existing document.
+- **Insert Mode:** Press `<F1>` to start typing.
+- **Save Document:** Press `<F2>` to save your work.
+- **Open Document:** Press `<F3>` to open a file.
 
 ## Installation
 
-To install LUXARG, run the following command:
+To install LUXARG, use this command:
 
 ```bash
 $ python<3X> installer.py
@@ -40,7 +18,7 @@ $ python<3X> installer.py
 
 ## Dependencies
 
-Before installation, make sure to install the required dependencies:
+First, install the needed libraries:
 
 ```bash
 $ pip3 install -r requirements.txt
@@ -48,7 +26,7 @@ $ pip3 install -r requirements.txt
 
 ## Update Method
 
-To update LUXARG, navigate to the .luxarg directory and run:
+To update LUXARG, go to the .luxarg folder and run:
 
 ```bash
 $ cd ~/.luxarg
@@ -57,11 +35,8 @@ $ python<3X> update.py
 
 ## Install pip
 
-If you need to install pip, refer to the `pip.txt` file for instructions.
+Refer to `pip.txt` for instructions on installing pip.
 
 ---
 
-LUXARG aims to provide a seamless text editing experience with its lightweight design and straightforward functionality. Start using LUXARG today and enhance your productivity!
-``` 
-
-Feel free to modify any part of this format or content to better suit your needs!
+LUXARG gives you a straightforward text editing experience. 
