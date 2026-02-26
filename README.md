@@ -1,50 +1,67 @@
-# luxarg :
+```markdown
+# LUXARG: A User-Friendly Text Editor
 
+LUXARG is a keyboard-friendly text editor designed for simplicity and ease of use. Whether you're a seasoned developer or a casual user, LUXARG provides an intuitive interface to enhance your writing experience.
 
-LUXARG is another keyboard friendly text editor.
+## Supported Platforms
 
-This project started at August 2019 and restarted at 2021 TODAY!
+LUXARG is compatible with a variety of Linux distributions, including:
 
-Easy to use and userfriendly !
+- **Fedora**
+- **CentOS**
+- **RedHat**
+- **Debian**
+- **Ubuntu**
+- **OpenSUSE**
+- **Arch**
+- **Manjaro**
 
+## Icon
 
+![LUXARG Icon](icon/luxarg.png)
 
+## Screenshot
 
-LUXARG support :
+![LUXARG Screenshot](screenshot/1.png)
 
-Fedora, CENTOS and RedHat,
+## Key Bindings
 
-Debian and Ubuntu,
+- **Insert Mode:** Press `<F1>` to enter insert mode.
+- **Save Mode:** Press `<F2>` to save your current document.
+- **Open Mode:** Press `<F3>` to open an existing document.
 
-OpenSUSE,
+## Installation
 
-Arch and Manjaro, ...
+To install LUXARG, run the following command:
 
+```bash
+$ python<3X> installer.py
+```
 
-# ICON
+## Dependencies
 
-![ICON](icon/luxarg.png)
+Before installation, make sure to install the required dependencies:
 
+```bash
+$ pip3 install -r requirements.txt
+```
 
-# screenshot :
+## Update Method
 
-![screenshot](screenshot/1.png)
+To update LUXARG, navigate to the .luxarg directory and run:
 
+```bash
+$ cd ~/.luxarg
+$ python<3X> update.py
+```
 
-# KEYS : 
-    INSERT MODE : <F1>
-    SAVE   MODE : <F2>
-    OPEN   MODE : <F3>
+## Install pip
 
-# INSTALLATION
-    $ python<3X> installer.py
+If you need to install pip, refer to the `pip.txt` file for instructions.
 
-# dependencies
-    $ pip3 install -r requirements.txt
+---
 
-# update method
-    $ cd ~/.luxarg
-    $ python<3X> update.py
+LUXARG aims to provide a seamless text editing experience with its lightweight design and straightforward functionality. Start using LUXARG today and enhance your productivity!
+``` 
 
-# Install pip
-    pip.txt
+Feel free to modify any part of this format or content to better suit your needs!
